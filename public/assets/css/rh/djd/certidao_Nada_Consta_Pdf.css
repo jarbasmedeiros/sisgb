@@ -1,0 +1,315 @@
+
+  /* Table Base */
+
+ 
+    
+  .table {
+    border: #D3D3D3 solid 1px;
+    width: 100%;
+    border-collapse:collapse;
+  }
+
+  .table td {
+    border: #D3D3D3 solid 1px;
+    font-size: 9pt;
+  }
+ 
+  .table thead th {
+    font-weight: bold;
+    background-color: #EEE9E9;
+    font-size: 11pt;
+    border: #D3D3D3 solid 1px;
+    text-align: left;
+  }
+
+
+  .title {
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  footer {
+    position: fixed; 
+    bottom: -60px; 
+    left: 0px; 
+    right: 0px;
+    height: 50px; 
+    font-size: 8px;
+    /** Extra personal styles **/
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .logo-texto{
+    margin-left: 50px; 
+    margin-top: 10px; 
+    font-size: 12px; 
+    height: 60px;
+    
+  }
+  .logo-pdf{
+    margin-right: 12px; 
+    margin-top: 10px;
+    float: left;
+  }
+  .legandatitulo{
+    padding: 8px;
+    background-color: #DCDCDC;
+    color: #000;
+    line-height: 3.0;
+  }
+  .titulocaderneta{
+    border: #000 solid 1px;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .brasao{
+    position: relative;
+    width: 14%;
+    float: left;
+    text-align: center;
+  }
+
+  .cab-corpo{
+    width: 70%;
+    float: left;
+    text-align: center;
+  }
+
+  .border {
+    border: 1px solid;
+    border-color: #D3D3D3;
+  }
+
+  .borda {
+    border: 1px solid;
+    border-color: #D3D3D3;
+    font-family: "Times New Roman";
+    font-size: 12px;
+  }
+
+  .borda1 {
+    border: 1px solid;
+    border-color: #D3D3D3;
+    font-family: "Times New Roman";
+    font-size: 11pt;
+    }
+  
+  .head {
+    margin: 5px 0 20px 0;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 11pt;
+    }
+
+  .titulo-sessao{
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background: #EEE9E9;
+  }
+
+  .titulo-sub-sessao{
+    padding: 0;
+    text-align: left;
+    font-weight: bold;
+    background: #EEE9E9;
+    margin-top: 10px;
+  }
+
+  .corpo-sub-sessao {
+    font-size: 9pt;
+    text-align: center;
+    }
+
+  .obs {
+    font-size: 7pt;
+    text-align: left;
+    }
+
+  .cabecalho{
+      text-align: center;
+      border: 1px solid;
+      border-color: #D3D3D3;
+    }
+  .strong{
+      text-align: center;
+      border: 1px solid;
+    }
+  .seminfo{
+      text-align: center;
+      font-weight: bold;
+      padding-top: 100px;
+      padding-bottom: 10px;
+    }
+
+    .col-md-1{
+      position: relative;
+      width: 8.3%;
+      float: left;
+    }
+
+    .col-md-2{
+      position: relative;
+      width: 16.6%;
+      float: left;
+    }
+
+    .col-md-3{
+      position: relative;
+      width: 24.9%;
+      float: left;
+    }
+
+    .col-md-3-right{
+      position: relative;
+      width: 24.3%;
+      float: right;
+    }
+
+    .col-md-4{
+      position: relative;
+      width: 33.33%;
+      float: left;
+    }
+
+    .col-md-5{
+      position: relative;
+      width: 41.5%;
+      float: left;
+    }
+
+    .col-md-6{
+      position: relative;
+      width: 50%;
+      float: left;
+    }
+
+    .col-md-6-right{
+      position: relative;
+      width: 49.8%;
+      float: right;
+           
+    }
+
+    .col-md-8{
+      position: relative;
+      width: 66.4%;
+      float: left;
+           
+    }
+
+    .col-md-9{
+      position: relative;
+      width: 74.7%;
+      float: left;
+           
+    }
+
+    .col-md-10{
+      position: relative;
+      width: 83%;
+      float: left;
+    }
+
+    .col-md-12{
+      position: relative;
+      width: 100%;
+      float: left;
+    }
+
+    .text-center{
+      text-align: center;
+    }
+    .text-left{
+      text-align: left;
+    }
+
+    .imagem{
+      position: relative; 
+      float: right;
+      width: 18%;
+      border:1px solid #999;
+    }
+
+    .titulo-celula{
+      font-size: 8pt;
+      text-align: left;
+      font-weight: bold;
+    }
+
+    .mt-10{
+      margin-top: 10px;
+    }
+
+    .mt-20{
+      margin-top: 20px;
+    }
+
+    .bg-cinza {
+      background-color:  #EEE9E9;
+    }
+    .conteudo {
+        text-align: justify;
+        text-justify: inter-word;
+
+      }
+    .conteudo h4{
+        font-weight: normal;
+    }
+    .conteudo p {
+        text-indent: 40px;
+      }
+    .conteudoT4 p {
+      margin-top: 60px;
+        text-align: center;
+      }
+    .conteudoT5 h6 {
+      top: 170px;
+      padding-right:-50px;
+      }
+     
+    .conteudoT5 p {
+     
+      text-align: center;
+      font-size: 14px;
+      }
+      
+    .conteudoT6 p {
+        text-align: left;
+        left:40%;
+        margin-top: -73px;
+      }
+      .conteudoT5 h5 {
+        font-weight: normal;
+        text-align: center;
+        padding-top:-3%;
+      }
+      .conteudoT7 h4 {
+        text-align: center;
+      }
+      .tbl th{
+        text-align: center;
+      }
+      .tbl td{
+        text-align: center;
+      }
+      .auxiliar h6{
+        font-size: 12px;
+        text-align: center;
+        padding-bottom:-7%;
+  
+             }
+      .chefia h6{
+        font-size: 12px;
+        text-align: center;
+        padding-bottom:-7%;
+     }

@@ -1,0 +1,89 @@
+
+  /* Table Base */
+
+ 
+    
+  .table {
+    border: #999999 solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse:collapse;
+    
+  }
+
+  .table th,
+  .table td {
+    border: #999999 solid 1px;
+    font-size: 12px;
+    text-align: left;
+    padding: 4px;
+  }
+ 
+  .table thead th  {
+    font-weight: normal;
+    background-color: #005dab;
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  footer {
+    position: fixed; 
+    bottom: -60px; 
+    left: 0px; 
+    right: 0px;
+    height: 50px; 
+    font-size: 8px;
+    /** Extra personal styles **/
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .logo-texto{
+    margin-left: 50px; 
+    margin-top: 10px; 
+    font-size: 12px; 
+    height: 60px;
+    
+  }
+  .logo-pdf{
+    margin-right: 12px; 
+    margin-top: 10px;
+    float: left;
+  }
+  .legandatitulo{
+    padding: 8px;
+    background-color: #DCDCDC;
+    color: #000;
+    line-height: 3.0;
+  }
+  .titulocaderneta{
+    border: #000 solid 1px;
+    color: #000;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  .brasao{
+    position: relative;
+    width: 14%;
+    float: left;
+    text-align: center;
+  }
+
+  .cab-corpo{
+    width: 70%;
+    float: left;
+    text-align: center;
+  }
+
+  

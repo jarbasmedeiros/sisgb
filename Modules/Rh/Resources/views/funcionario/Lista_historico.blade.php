@@ -1,0 +1,1 @@
+@extends('rh::funcionario.Form_edita_funcionario')

@@ -1,0 +1,14 @@
+{
+    "name": "Matebel",
+    "alias": "matebel",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Matebel\\Providers\\MatebelServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

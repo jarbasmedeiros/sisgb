@@ -1,0 +1,80 @@
+
+    <form class="form-horizontal" role="form" method="POST" action="{{ url('/boletim/store') }}">
+        {{csrf_field()}}
+        <fieldset class="scheduler-border">
+            <legend class="scheduler-border">Informações dos Policiais</legend>
+            <div class="form-group">
+                <label for="st_assunto" class="col-md-2 control-label">Policial</label>
+                <div class="col-md-6">
+                    <input id="consultaPolicial" type="text" class="form-control" name="" value="1948539" placeholder="Buscar policial por CPF ou Matrícula...">
+                </div>
+                <div class="col-4">
+                    <!-- Botão para acionar modal -->
+                    <a id="consultar" class="btn btn-primary" onclick="consultar()" data-toggle="modal" data-target="#modalExemplo">
+                    Consultar
+                    </a>
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="exampleModalLabel">Adicionar Policial em Lote</h4>
+                            </div>
+                            <div class="modal-body">
+                                
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr class="bg-primary">
+                                            <th>Post/Grad</th>
+                                            <th>Praça</th>
+                                            <th>Matrícula</th>
+                                            <th>Nome</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody name="idPolicial" id="policialencontrado_tbody">
+                                       
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br/>
+                            <div class="modal-footer">
+                                <button type="button" id="adicionar" class="btn btn-primary addPolicial">Adicionar</button>
+                                <button type="button" id="canceladd" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped">
+            <thead>
+                <tr class="bg-primary">
+                    <th>Post/Grad</th>
+                    <th>Praça</th>
+                    <th>Matrícula</th>
+                    <th>Nome</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody class="addPolicialEncontrado_tbody">
+                @if(isset($modelos))
+                    @foreach($modelos as $m)
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th><a class="btn btn-block btn-warning btn-sm">Excluir</a></th>
+                        </tr>
+                    @endforeach
+                @endif
+            </tbody>
+        </table>
+        </fieldset>
+        <div class="camposdanota"></div>
+        
+    </form><!--form nota com pm-->
+

@@ -1,0 +1,25 @@
+/* Table Base */
+table {
+  max-width: 100%;
+  border: solid 0.05cm black;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+table th{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 8pt;
+  padding: 4px;
+  border: solid black;
+  border-width: 0.05cm;
+}
+
+table td{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 8pt;
+  padding: 3px;
+  border: solid black;
+  border-width: 0.05cm;
+}

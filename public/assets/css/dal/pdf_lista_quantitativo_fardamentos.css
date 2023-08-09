@@ -1,0 +1,132 @@
+
+
+  /* Table Base */
+
+  .table {
+      border: #999999 solid 1px;
+      margin-bottom: 20px;
+      border-collapse:collapse;
+    }
+    
+    .left{
+      position: relative;
+      float: left;
+      width: 16%;
+    }
+    
+    .right{
+      position: relative;
+      float: right;
+      width: 20%;
+    }
+
+  .wrapper {
+    display: inline;
+    grid-template-columns: 100px 100px 100px;
+  }
+  
+  .table-title{
+    background-color: #DCDCDC;
+    color: #000;
+  }
+  
+  .table th,
+  .table td {
+    border: #999999 solid 1px;
+    font-size: 10pt;
+    text-align: center;
+    padding: 4px;
+  }
+
+  footer {
+    position: fixed; 
+    bottom: -60px; 
+    left: 0px; 
+    right: 0px;
+    height: 50px; 
+    font-size: 8px;
+    /** Extra personal styles **/
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .cab-corpo-restricao{
+    width: 80%;
+    text-align: center;
+  }
+  .cab-corpo{
+    width: 85%;
+    text-align: center;
+  }
+
+  .brasao-rn{
+    position: relative;
+    width: 60;
+    float: left;
+  }
+
+  .brasao-pm{
+    position: absolute;
+    width: 60;
+    top: 1.6cm;
+    right: 1.5cm;
+    float: right;
+  }
+
+  .cx-texto{
+    position: absolute;
+    top: 1.5cm; 
+    right: 1px;
+    width: 6cm;
+    float: right;
+    text-align: left;
+    border: 1px solid #000;
+  }
+
+  .cx-texto-CMAPM{
+    position: relative;
+    width: 9cm;
+    float: left;
+    text-align: justify;
+    border: 1px solid #000;
+    margin-top: 0.5cm;
+  }
+
+  .cx-texto-inferior{
+    position: relative;
+    float: left;
+    width: 7.5cm;
+    margin-top: 15px;
+    text-align: left;
+    border: 1px solid #000;
+  }
+
+  .linha{
+    position: relative;
+    float: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 2cm;
+  }
+
+  .legenda-titulo{
+    padding: 8px;
+    background-color: #DCDCDC;
+    color: #000;
+    line-height: 3.0;
+  }
+  .titulo{
+    border: #000 solid 1px;
+    color: #000;
+    text-align: center;
+    width: 93.7%;
+    margin-top: 10px;
+    margin-left: 31px;
+    font-weight: bold;
+    background-color: #DCDCDC;
+  }
+
+  .mb-10{margin-bottom: 10px;}
+
+  .ml-15{margin-left: 30px;}
+

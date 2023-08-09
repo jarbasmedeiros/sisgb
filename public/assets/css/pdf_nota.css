@@ -1,0 +1,123 @@
+/*page só se aplica no mpdf*/
+@page{
+  margin: 108px 98px 64px 114px;
+  background: url('imgs/borda1.png');
+  font-family: 'Times New Roman', Times !important;
+}
+
+/*para a web nota*/
+body{
+  margin: 108px 98px 64px 114px;
+  font-family: 'Times New Roman', Times !important;
+}
+
+div .notaCompleta{
+  font-family: 'Times New Roman', Times !important;
+}
+
+#watermarkNota {
+  position: fixed;
+  top: 20%;
+  width: 100%;
+  text-align: center;
+  opacity: .2;
+  transform: rotate(-50deg);
+  transform-origin: 50% 50%;
+  z-index: -1000;
+  font-size: 95px;
+  font-family: "Times New Roman";
+}
+
+div{
+  line-height: 17px;
+}
+
+.tituloParte{
+  letter-spacing: 4px;
+}
+
+.td_nomepm{
+  text-align: left;
+}
+
+.text-left{
+  text-align: left;
+}
+
+table{
+  border: solid 0.05cm black;
+  border-spacing: 0px;
+  width: 100%;
+}
+
+thead{
+  background-color: none !important;
+}
+
+table th{
+  font-family: 'Times New Roman';
+  font-size: 8pt;
+  padding: 4px;
+  border: solid black;
+  border-width: 0.05cm;
+}
+
+table td{
+  font-family: 'Times New Roman';
+  font-size: 8pt;
+  padding: 3px;
+  border: solid black;
+  border-width: 0.05cm;
+}
+
+.centralizado{
+  text-align: center;
+}
+
+.tabela_pm{
+  font-size: 8px;
+  border: solid 0.5 black;  
+
+  width:100%
+}
+
+.cabecalho_tabela_pm{
+  font-size: 8px;
+  border: solid 0.5 black;    
+}
+.body_tabela_pm{
+  font-size: 8px;
+  border: solid 0.5 black;    
+}
+.celula_tabela_pm{
+  font-size: 8px;
+  border: solid 0.5 black;    
+}
+.celula_tabela_pm_ord{
+  font-size: 8px;
+  width: 30px;
+  border: solid 0.5 black;    
+}
+.celula_tabela_pm_postgrad{
+  font-size: 8px;
+  width: 50px;
+  border: solid 0.5 black;    
+}
+.celula_tabela_pm_numpraca{
+  font-size: 8px;
+  width: 50px;
+  border: solid 0.5 black;    
+}
+.celula_tabela_pm_matricula{
+  font-size: 8px;
+  width: 50px;
+  border: solid 0.5 black;    
+}
+/* Table Base */
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: arial;
+}

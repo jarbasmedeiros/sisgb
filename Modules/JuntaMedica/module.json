@@ -1,0 +1,14 @@
+{
+    "name": "JuntaMedica",
+    "alias": "juntamedica",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\JuntaMedica\\Providers\\JuntaMedicaServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

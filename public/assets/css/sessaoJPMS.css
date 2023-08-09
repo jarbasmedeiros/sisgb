@@ -1,0 +1,61 @@
+
+  /* Table Base */
+  
+  .table-jpms {
+    border: #999999 solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse:collapse;
+  }
+  
+  .table-title{
+    padding: 8px;
+    background-color: #DCDCDC;
+    color: #000;
+    line-height: 3.0;
+  }
+  
+  .table-jpms th,
+  .table-jpms td {
+    border: #999999 solid 1px;
+    font-size: 10pt;
+    text-align: center;
+    padding: 4px;
+  }
+
+  footer {
+    position: fixed; 
+    bottom: -60px; 
+    left: 0px; 
+    right: 0px;
+    height: 50px; 
+    font-size: 8px;
+    /** Extra personal styles **/
+    text-align: center;
+    line-height: 35px;
+  }
+
+  .cab-corpo-jpms{
+    font-size: 9pt;
+    float: left;
+    text-align: center;
+  }
+
+  .cab-descricao{
+    font-size: 9pt;
+    float: left;
+    text-align: left;
+  }
+
+  .assinatura-nome{
+    font-size: 10pt;
+    margin-top: 10px;
+    text-align: center;
+    font-style: italic;
+  }
+
+  .assinatura-funcao{
+    font-size: 10pt;
+    text-align: center;
+    font-weight: bold
+  }

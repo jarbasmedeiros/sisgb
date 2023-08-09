@@ -1,0 +1,54 @@
+fieldset.scheduler-border {
+    border: 1px solid #3c8dbc;
+    border-radius: 4px;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 20px;
+}
+legend.scheduler-border {
+    width: auto;
+    border: 1px solid #3c8dbc;
+    background: #3c8dbc;
+    color: #ffffff;
+    padding: 0px 10px 3px 10px;
+    margin: 0;
+    font-size: 16px;
+}
+label.radio-option {
+    margin-right: 15px;
+}
+hr.separador {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-top: 1px solid #d2d6de;
+}
+h4.tab-title {
+    font-weight: bold;
+}
+.nav-tabs-custom {
+    margin-bottom: 0;
+    background: #fff;
+    box-shadow: none;
+}
+.user-panel>.image>img {
+    width: 45px;
+    height: 45px;
+}
+.wrapper {
+    overflow-y: hidden;
+}
+/* Alterando cor da caixa do select2 para azul claro */
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #c6e6f9;
+    border-color: #96d1f3;
+    color: #000000;
+}
+/* Alterando cor da fonte da caixa select2 para preto */
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #000000;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #3c8dbc;
+    color: white;
+}
+
